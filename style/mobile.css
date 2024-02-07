@@ -1,0 +1,55 @@
+@media (max-width: 425px) {
+  #Card {
+    flex-direction: column;
+  }
+
+  .img-desktop {
+    display: none;
+  }
+
+  #card-header {
+    width: 100%;
+    height: 250px;
+  }
+
+  .img-mobile {
+    display: block;
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+    height: 250px;
+  }
+
+  #container {
+    height: 100vh;
+  }
+
+  #Card {
+    width: 80%;
+    height: fit-content;
+  }
+
+  #card-body {
+    padding-top: 12px;
+    width: 100%;
+  }
+
+  .pr-type {
+    margin: 10px 0;
+  }
+
+  .pr-desc,
+  .pr-type {
+    font-size: 12px;
+  }
+
+  .pr-name {
+    font-size: 28px;
+  }
+
+  .btn {
+    width: 95%;
+    margin: auto;
+    font-size: 14px;
+    padding: 0.5rem;
+  }
+}
